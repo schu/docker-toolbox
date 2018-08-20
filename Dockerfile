@@ -7,6 +7,8 @@ RUN apt-get update && apt-get install -y -q --no-install-recommends \
   htop \
   jq \
   nmap \
+  screen \
+  tmux \
   wget
 
 RUN apt-get clean
