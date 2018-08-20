@@ -7,4 +7,6 @@ RUN apt-get update && apt-get install -y -q --no-install-recommends \
   htop \
   wget
 
+RUN apt-get clean
+
 CMD ["/bin/bash"]
