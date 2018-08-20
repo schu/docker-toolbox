@@ -5,6 +5,8 @@ RUN apt-get update && apt-get install -y -q --no-install-recommends \
   curl \
   dnsutils \
   htop \
+  jq \
+  nmap \
   wget
 
 RUN apt-get clean
