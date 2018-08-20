@@ -1,6 +1,7 @@
 FROM debian
 
 RUN apt-get update && apt-get install -y -q --no-install-recommends \
+  binutils \
   ca-certificates \
   curl \
   dnsutils \
