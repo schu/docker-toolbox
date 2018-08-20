@@ -1,10 +1,6 @@
-
-
+.PHONY: all
 all: build
 
-.PHONY: all
-
-build:
-	docker build -t schu/toolbox .
-
 .PHONY: build
+build:
+	docker build --no-cache -t schu/toolbox .
