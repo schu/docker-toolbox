@@ -1,13 +1,15 @@
 FROM debian
 
 RUN apt-get update && apt-get install -y -q --no-install-recommends \
-  netcat-openbsd \
   ca-certificates \
   curl \
   dnsutils \
   htop \
   jq \
+  less \
+  netcat-openbsd \
   nmap \
+  procps \
   screen \
   tmux \
   vim \
