@@ -11,9 +11,15 @@ RUN apt-get update && apt-get install -y -q --no-install-recommends \
   netcat-openbsd \
   nmap \
   procps \
+  python \
+  python-virtualenv \
+  python3 \
+  python3-virtualenv \
   screen \
   tmux \
   vim \
+  virtualenv \
+  virtualenvwrapper \
   wget
 
 RUN apt-get clean
