@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y -q --no-install-recommends \
   less \
   netcat-openbsd \
   nmap \
+  openssh-client \
   procps \
   python \
   python-virtualenv \
