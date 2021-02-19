@@ -3,4 +3,4 @@ all: build
 
 .PHONY: build
 build:
-	docker build --no-cache -t schu/toolbox .
+	docker build --no-cache -t quay.io/schu/toolbox .
