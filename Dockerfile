@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y -q --no-install-recommends \
   ca-certificates \
   curl \
   dnsutils \
+  gpg \
   htop \
   jq \
   less \
